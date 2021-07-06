@@ -28,7 +28,7 @@ img{
     border-radius: 50px;
 }
 
-/* menu */
+/* menu section */
 .menu ol{
     list-style: none;
     text-align: right;
@@ -46,6 +46,7 @@ li a{
 li a:hover{
     text-decoration: underline;
 }
+
 /* welcome section */
 section.welcome{
     display: flex;
@@ -110,6 +111,7 @@ section.about{
 .review-customer .half-width{
     margin: 0 5%;
     padding: 10px 30px;
+    border: 1px solid #ddd;
     border-radius: 15px;
     background-color: floralwhite;
 }

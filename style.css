@@ -24,6 +24,8 @@ img{
     width: 45%;
     margin: 0 auto;
 }
+
+/* welcome section */
 section.welcome{
     display: flex;
     width: 90%;
@@ -33,6 +35,8 @@ section.welcome{
 #coral{
     color: coral;
 }
+
+/* about section  */
 section.about{
     display: flex;
     width: 100%;
@@ -41,8 +45,9 @@ section.about{
     margin-bottom: 100px;
 }
 #about-content{
-    padding: 50px;
+    padding: 50px 120px;
 }
+
 /* recipies section  */
 .recipies{
     margin-bottom: 100px;
@@ -63,12 +68,13 @@ section.about{
     box-shadow: 0 0 15px #ddd;
     border: 20px solid white;
     border-radius: 20px;
+    text-align: justify;
 }
 .items h2{
     margin: 0;
 }
 
-/* social */
+/* social section */
 .social{
     display: flex;
     width: 80%;

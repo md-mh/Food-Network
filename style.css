@@ -3,12 +3,98 @@ body{
     margin: 0;
     color: #565656;
 }
-section{
-    margin-bottom: 100px;
+h1{
+    font-size: 60px;
 }
-section .welcome{
-    display: flex;
+h2{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+img{
+    width: 100%;
 }
 .half-width{
-    width: 50%;
+    width: 45%;
+    margin: 0 auto;
+}
+section.welcome{
+    display: flex;
+    width: 90%;
+    margin: 0 5% 100px 5%;
+    margin-bottom: 100px;
+}
+#coral{
+    color: coral;
+}
+section.about{
+    display: flex;
+    width: 100%;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#about-content{
+    padding: 50px;
+}
+/* recipies section  */
+.recipies{
+    margin-bottom: 100px;
+}
+.recipies-head{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.recipies-items{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.items {
+    width: 30%;
+    margin: 10px 20px;
+    box-shadow: 0 0 15px #ddd;
+    border: 20px solid white;
+    border-radius: 20px;
+}
+.items h2{
+    margin: 0;
+}
+
+/* social */
+.social{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.social-item {
+    margin: 0 auto;
+    color: black;
+}
+.social-item h2{
+    margin: 0;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px 0 60px;
+}
+#darkorange{
+    color: darkorange;
+}
+#white{
+    color: white;
 }

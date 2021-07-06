@@ -9,13 +9,8 @@ h1{
 h2{
     font-size: 40px;
 }
-a{
-    text-decoration: none;
-    font-weight: 800;
-    color: white;
-    background-image: linear-gradient(45deg, orange, tomato);
-    padding: 10px 30px;
-    border-radius: 50px;
+p {
+    font-size: 17px;
 }
 img{
     width: 100%;
@@ -23,6 +18,29 @@ img{
 .half-width{
     width: 45%;
     margin: 0 auto;
+}
+.button{
+    font-weight: 800;
+    color: white;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/* menu */
+.menu ol{
+    list-style: none;
+    text-align: right;
+    width: 80%;
+    margin: 15px auto;
+}
+li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+li a{
+    text-decoration: none;
+    color: #000;
 }
 
 /* welcome section */
@@ -73,6 +91,31 @@ section.about{
 .items h2{
     margin: 0;
 }
+
+/* review section */
+.review{
+    margin-bottom: 100px;
+}
+.review h2{
+    text-align: center;
+}
+.review-customer{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.review-customer .half-width{
+    margin: 0 5%;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: floralwhite;
+}
+.review-customer h3{
+    text-align: right;
+    padding: auto;
+    margin: 0;
+}
+
 
 /* social section */
 .social{

@@ -1,0 +1,14 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    color: #565656;
+}
+section{
+    margin-bottom: 100px;
+}
+section .welcome{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
